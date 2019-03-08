@@ -77,8 +77,8 @@ public:
 int main()
 {
 	Person studenti;
-    studenti.MerrTeDhenat();
-    studenti.ShfaqTeDhenat();
+    	studenti.MerrTeDhenat();
+    	studenti.ShfaqTeDhenat();
 	return 0;
 
 }
