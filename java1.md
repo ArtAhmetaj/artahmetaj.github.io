@@ -148,16 +148,15 @@ class Fibonacci
             b = c;
         }
     };
-
-    void main()
-    {
-        cout << "Jepni numrin e termave ne serine Fibonacci: ";
-        int r;
-        cin >> r;
-	cout << r << " termat e serise Fibonacci jane:" << endl;
-        Fibonacci fibonacci;
-        fibonacci.Fibo(r);
-    }
+} void main()
+{
+    cout << "Jepni numrin e termave ne serine Fibonacci: ";
+    int r;
+    cin >> r;
+    cout << r << " termat e serise Fibonacci jane:" << endl;
+    Fibonacci fibonacci;
+    fibonacci.Fibo(r);
+}
 
 ```
 
