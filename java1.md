@@ -125,40 +125,39 @@ int main()
 ```c++
 #include <iostream>
 using namespace std;
-class Fibonacci{
-public:
+class Fibonacci
+{
+  public:
     int a, b, c;
     void Fibo(int n)
     {
-     int a=0,b=1;    
-        for(int i=0; i<n; i++){
-        if (i==0)
+        int a = 0, b = 1;
+        for (int i = 0; i < n; i++)
         {
-            cout << a;
-            continue;
+            if (i == 0)
+            {
+                cout << a;
+            }
+            if (i == 1)
+            {
+                cout << " " << b;
+            }
+            c = a + b;
+            cout << " " << c;
+            a = b;
+            b = c;
         }
-        if (i==1)
-        {
-            cout << " " << b;
-            continue;
-        }
-        c = a + b;
-        cout << " " << c;
-        a = b;
-        b = c;
-    
-    }
-    }
-};
+    };
 
-int main()
-{
-    cout << "Jepni numrin e termave ne serine fibonacci: ";
-    int r;
-    cin  >> r;
-    Fibonacci fibonacci;
-    fibonacci.Fibo(r);
-  return 0;
-}
+    void main()
+    {
+        cout << "Jepni numrin e termave ne serine Fibonacci: ";
+        int r;
+        cin >> r;
+	cout << r << " termat e serise Fibonacci jane:" << endl;
+        Fibonacci fibonacci;
+        fibonacci.Fibo(r);
+    }
+
 ```
 
