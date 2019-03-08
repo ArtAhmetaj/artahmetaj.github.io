@@ -39,4 +39,46 @@ int main() {
 
 
 
-```
+
+## **Detyra 2**
+```c++
+#include <iostream>
+using namespace std;
+#include string
+class Person
+{
+public:
+	string emri;
+	string mbiemri;
+	string qyteti;
+	int VitiLindjes;
+    void MerrTeDhenat()
+    {
+	cout << "jepni emrin e studentit:";
+	cin >> emri;
+	cout << "jepni mbiemrin e studentit:";
+	cin >> mbiemri;
+	cout << "jepni qytetin e studentit:";
+	cin >> qyteti;
+	cout << "jepni vitin e lindjes se studentit:";
+	cin >> VitiLindjes;
+	cout << endl << endl;
+    }
+    void ShfaqTeDhenat()
+    {
+cout << "Te dhenat e lexuara" << endl;
+	cout << emri << endl;
+	cout << mbiemri << endl;
+	cout << qyteti << endl;
+	cout << VitiLindjes << endl;
+    }
+};
+int main()
+{
+	Person studenti;
+    studenti.MerrTeDhenat();
+    studenti.ShfaqTeDhenat();
+	return 0;
+
+}
+
