@@ -120,5 +120,45 @@ int main()
 }
 ```
 
+## Detyra 3 
+### Te shkruhet Seria Fibonacci permes klasave !
+```c++
+#include <iostream>
+using namespace std;
+class Fibonacci{
+public:
+    int a, b, c;
+    void Fibo(int n)
+    {
+     int a=0,b=1;    
+        for(int i=0; i<n; i++){
+        if (i==0)
+        {
+            cout << a;
+            continue;
+        }
+        if (i==1)
+        {
+            cout << " " << b;
+            continue;
+        }
+        c = a + b;
+        cout << " " << c;
+        a = b;
+        b = c;
+    
+    }
+    }
+};
+
+int main()
+{
+    cout << "Jepni numrin e termave ne serine fibonacci: ";
+    int r;
+    cin  >> r;
+    Fibonacci fibonacci;
+    fibonacci.Fibo(r);
+  return 0;
+}
 
 
