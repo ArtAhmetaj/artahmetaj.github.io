@@ -15,10 +15,12 @@ class rrethi{
     int rrezja;
     public :
     int a;
-   void jepevleren(int k){
-   rrezja = k ;
-   }
-    int ktheje(){
+    void jepevleren(int k)
+    {
+    rrezja = k ;
+    }
+    int ktheje()
+    {
         return rrezja ;
     }
 
@@ -27,7 +29,7 @@ class rrethi{
 int main() {
     rrethi obj1;
    
-   obj1.jepevleren(3);
+    obj1.jepevleren(3);
    
     int r=obj1.ktheje();
    
@@ -65,7 +67,7 @@ public:
     }
     void ShfaqTeDhenat()
     {
-cout << "Te dhenat e lexuara" << endl;
+	cout << "Te dhenat e lexuara" << endl;
 	cout << emri << endl;
 	cout << mbiemri << endl;
 	cout << qyteti << endl;
