@@ -34,11 +34,9 @@ int main() {
     cout << 3.14 * r * r   << endl ;
    
     return 0;
+    }
 
-}
----
 
-```c++
 ## **Detyra 2**
 ```c++
 #include <iostream>
