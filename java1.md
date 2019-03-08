@@ -120,7 +120,7 @@ int main()
 }
 ```
 
-## Detyra 3 
+## Detyre Shtese
 ### Te shkruhet Seria Fibonacci permes klasave !
 ```c++
 #include <iostream>
