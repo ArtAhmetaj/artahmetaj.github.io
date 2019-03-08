@@ -5,43 +5,46 @@
 
 
 ## **Detyra 1**
-### Krijoni nje klase me nje variabel private me emrin rrezja, dhe nje variabel publike me emer te cfaredoshem. Me funksione merni vleren private dhe perdoreni per te percaktuar vleren e syprines se rrethit.
+ Krijoni nje klase me nje variabel private me emrin rrezja, dy funksione publike ku nje funksion percakton vleren e rrezes dhe tjetri funksion llogarit siperfaqen.
+ Funksionet duhet te inicializohen jashte klases .
 ```c++
 #include <iostream>
 using namespace std;
-
-class rrethi{
-    private:
-    int rrezja;
-    public :
-    int a;
-    void jepevleren(int k)
-    {
-    rrezja = k ;
-    }
-    int ktheje()
-    {
-        return rrezja ;
-    }
+#define PI 3.14
+class Rrethi
+{
+private:
+	int rrezja;
+public:
+	void vendos_rrezen(double r);
+	double siperfaqja()
 
 };
+void Rrethi::vendos_rrezen(double r)
+{
+	rrezja = r;
+}
+double Rrethi::siperfaqja()
+{
+	return PI * rrezja * rrezja;
 
-int main() {
-    rrethi obj1;
-   
-    obj1.jepevleren(3);
-   
-    int r=obj1.ktheje();
-   
-    cout << 3.14 * r * r   << endl ;
-   
-    return 0;
-    }
+}
+int main()
+{
+	Rrethi objRrethi;
+	objRrethi.vendos_rrezen(4.5);
+	cout << "siperfaqja e rrethit: "
+		<< objRrethi.siperfaqja();
+
+	return 0;
+
+}
+
  ```
 
-
+---
 ## **Detyra 2**
-### Krijoni nje klase me emrin Person e cila permbane variablat publike: emri,mbiemri,qyteti dhe VitiLindjes. Poashtu, kjo klase le te permbaje edhe dy funksione te llojit void, te cilat marrin te dhenat permes tastieres dhe pastaj i shfaqin ato.
+ Krijoni nje klase me emrin Person e cila permbane variablat publike: emri,mbiemri,qyteti dhe VitiLindjes. Poashtu, kjo klase le te permbaje edhe dy funksione te llojit void, te cilat marrin te dhenat permes tastieres dhe pastaj i shfaqin ato.
 ```c++
 #include <iostream>
 using namespace std;
@@ -83,7 +86,7 @@ int main()
 
 }
 ```
-
+---
 ##  **Detyra 2 - menyra tjeter**
 ```c++
 
@@ -119,9 +122,9 @@ int main()
 
 }
 ```
-
+---
 ## Detyra 3 
-### Te shkruhet Seria Fibonacci permes klasave !
+ Te shkruhet Seria Fibonacci permes klasave !
 ```c++
 #include <iostream>
 using namespace std;
@@ -162,4 +165,193 @@ int main()
     return 0;
 }
 ```
+---
+## Detyra 4
+Krijoni nje klase me emrin inicimi  me nje variabel private krijoni 2 funksione ku njeri percakton vleren e variables me ane te **cin** dhe funksioni tjeter e jep vleren e variables ne funksionin main me **cout**
+```cpp
+#include <iostream>
+using namespace std;
+class inicimi
+{
+private: int a;
+public:
+	void leximi();
+	void shtypja();
 
+};
+void inicimi::leximi()
+{
+	cout << "jepni vleren e var. a= ";
+	cin >> a;
+}
+void inicimi::shtypja()
+{
+	cout << endl << "vlera e var. private a = "
+		<< a;
+
+
+}
+int main()
+{
+	inicimi objInicimi;
+	objInicimi.leximi();
+	objInicimi.shtypja();
+	cout << endl << endl;
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+---
+## Detyra 5
+Krijoni nje klase katrori me nje variabel ( *int a* ) dhe nje variabel publike (*int b*) , me funksione publike vendosni vleren dhe paraqiteni ate ne funksionin int main 
+```cpp
+#include <iostream>
+using namespace std;
+class Katrori
+{
+private:
+	int a;
+
+public:
+	int b;
+	void vendos_vleren(int k)
+	{
+		a = k;
+	}
+
+	int lexo_vleren()
+	{
+		return a;
+	}
+
+};
+int main()
+{
+	Katrori objKatrori;
+	int x;
+	cout << "jepni vleren e variables a =";
+	cin >> x;
+	cout << "jepni vleren e variables b =";
+	cin >> objKatrori.b;
+	cout << endl << endl;
+	cout << "te dhenat e lexuara:" << endl;
+	cout << "vlera e variables a = " << objKatrori.lexo_vleren()<<endl;
+	cout << "vlera e variables b = " << objKatrori.b << endl;
+
+	return 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+---
+## Detyra 6
+Detyra le te jete e ngjashme me detyren e 4 por inicimi i vlerave te mos behet me **cin** por direkt te funksioni int main 
+Kuptohet qe per kete rast te gjitha variablat jane publike
+Per kete detyre kemi variablet x,y,z ku z eshte variabel double.
+```cpp
+#include <iostream>
+using namespace std;
+class inicimi_direkt
+{
+
+public:
+	int x;
+	double y, z;
+	void shtypja()
+	{
+		cout << "x= " << x << endl;
+		cout << "y= " << y << endl;
+		cout << "z= " << z << endl;
+	}
+	
+
+};
+int main()
+{
+	inicimi_direkt objID = { 3,1.4,5.6 };
+	objID.shtypja();
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
