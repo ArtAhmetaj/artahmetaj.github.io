@@ -82,7 +82,7 @@ int main()
 ```
 
 ## ** Detyra 2 (pa funksione dhe me char ne vend te string) ** 
-
+```c++
 #include <iostream>
 using namespace std;
 class Person
