@@ -4,7 +4,7 @@
 
 
 
-## **Detyra 1**
+## Detyra 1
  Krijoni nje klase me nje variabel private me emrin rrezja, dy funksione publike ku nje funksion percakton vleren e rrezes dhe tjetri funksion llogarit siperfaqen.
  Funksionet duhet te inicializohen jashte klases .
 ```c++
@@ -43,7 +43,7 @@ int main()
  ```
 
 ---
-## **Detyra 2**
+## Detyra 2
  Krijoni nje klase me emrin Person e cila permbane variablat publike: emri,mbiemri,qyteti dhe VitiLindjes. Poashtu, kjo klase le te permbaje edhe dy funksione te llojit void, te cilat marrin te dhenat permes tastieres dhe pastaj i shfaqin ato.
 ```c++
 #include <iostream>
@@ -87,7 +87,7 @@ int main()
 }
 ```
 ---
-##  **Detyra 2 - menyra tjeter**
+##  Detyra 2 - menyra tjeter
 ```c++
 
 #include <iostream>
