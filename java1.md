@@ -39,8 +39,8 @@ int main() {
 
 
 
-
-# **Detyra 2**
+```c++
+## **Detyra 2**
 ```c++
 #include <iostream>
 using namespace std;
