@@ -137,18 +137,21 @@ class Fibonacci
             if (i == 0)
             {
                 cout << a;
+                continue;
             }
             if (i == 1)
             {
                 cout << " " << b;
+                continue;
             }
             c = a + b;
             cout << " " << c;
             a = b;
             b = c;
         }
-    };
-} void main()
+    }
+};
+int main()
 {
     cout << "Jepni numrin e termave ne serine Fibonacci: ";
     int r;
@@ -156,7 +159,7 @@ class Fibonacci
     cout << r << " termat e serise Fibonacci jane:" << endl;
     Fibonacci fibonacci;
     fibonacci.Fibo(r);
+    return 0;
 }
-
 ```
 
