@@ -79,6 +79,42 @@ int main()
 	return 0;
 
 }
+```
+
+## ** Detyra 2 (pa funksione dhe me char ne vend te string) ** 
+
+#include <iostream>
+using namespace std;
+class Person
+{
+public:
+	char emri[20];
+	char mbiemri[20];
+	char qyteti[20];
+	int VitiLindjes;
+};
+int main()
+{
+	Person studenti;
+	cout << "jepni emrin e studentit:";
+	cin >> studenti.emri;
+	cout << "jepni mbiemrin e studentit:";
+	cin >> studenti.mbiemri;
+	cout << "jepni qytetin e studentit:";
+	cin >> studenti.qyteti;
+	cout << "jepni vitin e lindjes se studentit:";
+	cin >> studenti.VitiLindjes;
+	cout << endl << endl;
+
+	cout << "Te dhenat e lexuara" << endl;
+	cout << studenti.emri << endl;
+	cout << studenti.mbiemri << endl;
+	cout << studenti.qyteti << endl;
+	cout << studenti.VitiLindjes << endl;
+	return 0;
+
+}
+
 
 
 
