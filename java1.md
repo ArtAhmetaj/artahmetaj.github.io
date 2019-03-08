@@ -39,6 +39,7 @@ int main() {
 
 
 ## **Detyra 2**
+### Krijoni nje klase me emrin Person e cila permbane variablat publike: emri,mbiemri,qyteti dhe VitiLindjes. Poashtu, kjo klase le te permbaje edhe dy funksione te llojit void, te cilat marrin te dhenat permes tastieres dhe pastaj i shfaqin ato.
 ```c++
 #include <iostream>
 using namespace std;
@@ -81,7 +82,7 @@ int main()
 }
 ```
 
-##  **Detyra 2 (pa funksione dhe me char ne vend te string)**
+##  **Detyra 2 - menyra tjeter**
 ```c++
 
 #include <iostream>
