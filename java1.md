@@ -35,6 +35,7 @@ int main() {
    
     return 0;
     }
+    ```
 
 
 ## **Detyra 2**
