@@ -12,7 +12,7 @@ private:
 	int rrezja;
 public:
 	void vendos_rrezen(double r); 
-	double siperfaqja() 
+	double siperfaqja();
 
 };
 void Rrethi::vendos_rrezen(double r)
@@ -43,7 +43,7 @@ int main()
 ```c++
 #include <iostream>
 using namespace std;
-#include string
+#include <string>
 class Person
 {
 public:
