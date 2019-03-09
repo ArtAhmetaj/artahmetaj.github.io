@@ -1,30 +1,55 @@
 # **Klasat**
+**Sintaksa e klases**
+```cpp
+#include <iostream>
+using namespace std;
+class Vetura{
+private:  klases
+int shpejtesia ;
+public: klases
+string lloji  ;
+void jepevleren(int k) {
+	shpejtesia = k;  
+}
+void kthejevleren() {
+	cout <<"Shpejtesia e vetures eshte"  << shpejtesia;
+}
+}; 
+int main () { 
+	Vetura a1; // ketu krijojme objektin a1 prej klases vetura
+	
+	a1.jepevleren(4);
+	a1.kthejevleren();
+	return 0 ;
+}
+/*  Ne kete rast kemi perdorur 2 funksione  ku funksioni jepevleren i llojit void e ka mar 1 vlere hyrese dhe  ja ka jep variables publike shpejtesia
+kurse funksioni kthejevleren  poashtu  i llojit void thjeshte ka paraqitur vleren ne console ( cout )
+*/
 
+```
 
-
-
-
+---
 ## Detyra 1
  Krijoni nje klase me nje variabel private me emrin rrezja, dy funksione publike ku nje funksion percakton vleren e rrezes dhe tjetri funksion llogarit siperfaqen.
  Funksionet duhet te inicializohen jashte klases .
 ```c++
 #include <iostream>
 using namespace std;
-#define PI 3.14
+#define PI 3.14    
 class Rrethi
 {
 private:
 	int rrezja;
 public:
-	void vendos_rrezen(double r);
-	double siperfaqja()
+	void vendos_rrezen(double r); 
+	double siperfaqja() 
 
 };
 void Rrethi::vendos_rrezen(double r)
 {
 	rrezja = r;
 }
-double Rrethi::siperfaqja()
+double Rrethi::siperfaqja() // inicializimi jashte klases
 {
 	return PI * rrezja * rrezja;
 
@@ -123,7 +148,7 @@ int main()
 }
 ```
 ---
-## Detyra 3 
+## Detyra 3 (Detyre Shtese )
  Te shkruhet Seria Fibonacci permes klasave !
 ```c++
 #include <iostream>
@@ -248,7 +273,7 @@ int main()
 ## Detyra 6
 Detyra le te jete e ngjashme me detyren e 4 por inicimi i vlerave te mos behet me **cin** por direkt te funksioni int main 
 Kuptohet qe per kete rast te gjitha variablat jane publike
-Per kete detyre kemi variablet x,y,z ku z eshte variabel double.
+Per kete detyre kemi variablat x , y  ,z ku x esht i tipit integer the y,z jane te tipit double .
 ```cpp
 #include <iostream>
 using namespace std;
