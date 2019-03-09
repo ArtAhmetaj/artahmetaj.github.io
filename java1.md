@@ -1,34 +1,4 @@
 # **Klasat**
-**Sintaksa e klases**
-```cpp
-#include <iostream>
-using namespace std;
-class Vetura{
-private:  klases
-int shpejtesia ;
-public: klases
-string lloji  ;
-void jepevleren(int k) {
-	shpejtesia = k;  
-}
-void kthejevleren() {
-	cout <<"Shpejtesia e vetures eshte"  << shpejtesia;
-}
-}; 
-int main () { 
-	Vetura a1; // ketu krijojme objektin a1 prej klases vetura
-	
-	a1.jepevleren(4);
-	a1.kthejevleren();
-	return 0 ;
-}
-/*  Ne kete rast kemi perdorur 2 funksione  ku funksioni jepevleren i llojit void e ka mar 1 vlere hyrese dhe  ja ka jep variables publike shpejtesia
-kurse funksioni kthejevleren  poashtu  i llojit void thjeshte ka paraqitur vleren ne console ( cout )
-*/
-
-```
-
----
 ## Detyra 1
  Krijoni nje klase me nje variabel private me emrin rrezja, dy funksione publike ku nje funksion percakton vleren e rrezes dhe tjetri funksion llogarit siperfaqen.
  Funksionet duhet te inicializohen jashte klases .
