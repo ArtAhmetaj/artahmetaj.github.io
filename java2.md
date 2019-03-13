@@ -1,4 +1,5 @@
 # **Vazhdim i klasave** 
+
 ## Detyra 1 
 LLogariteni funksionin ne foto .
 
@@ -9,7 +10,7 @@ Per zgjedhjen e funksionit perdor  funksionet publike :
 
 vendosvleren() qe i jep vlerat variablave private,
 
- shuma() qe gjen shumene e (2*i+a) prej 1 deri ne n+1 
+ shuma() qe gjen shumen e (2*i+a) prej 1 deri ne n+1 
 
  dhe funksionig() qe e gjen dhe kthen vleren.
  
