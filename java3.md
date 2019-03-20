@@ -50,7 +50,7 @@ int main()
 ## Detyra 2
 Te shkruhet programi i cili e permbane klasen omega, e kjo klase te kete variablat private n dhe k te tipit int, x dhe a te tipit double ndersa te kete variablen y te tipit double e cila eshte publike.
 
- Permes konstruktorit te llogaritet shprehja:  y = 3 * x + k * s.
+ Permes konstruktorit te llogaritet Funksioni ne [foto](https://imgur.com/a/o4SYc0e)
 
 ```cpp
 #include <iostream>
@@ -116,9 +116,9 @@ public:
 int main()
 {
 
-    kater pes(3,4);
-    pes.llogaritja();
-    pes.shtypja();
+    kater obj1(3,4);
+    obj1.llogaritja();
+    obj1.shtypja();
     return 0;
 }
 ```
@@ -207,3 +207,4 @@ int main()
     cout << "Vlera max:  " << objBeta.max() << endl ;
     return 0;
 }
+```
