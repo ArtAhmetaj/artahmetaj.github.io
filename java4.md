@@ -3,6 +3,7 @@
 Cdo variabel ne c++ ka 1 adrese te caktuar ku ruhet .
 Per mi perdor ato adresa ne perdorim variablat e quajtura pointer qe jepin adresen e variables
 
+---
 *Shembull:* 
 ```cpp
 #include <iostream>
@@ -19,6 +20,7 @@ int main()
  return 0 ;
 }
 ```
+
 Shenja yll perveq qe perdoret per te treguar pointer perdoret edhe per te mare vleren ne ate adrese specifike (dereferencim )
  
  *Shembull:*
@@ -34,7 +36,7 @@ Shenja yll perveq qe perdoret per te treguar pointer perdoret edhe per te mare v
      return 0;
  }
 ``` 
-
+---
 ## Detyra 1 
 
 Te deklarohet nje variabel me nje vlere te cfaredoshme dhe nje pointer. Permes pointerit, ta marrim adresen
@@ -57,6 +59,7 @@ int main()
     return 0;
 }
 ```
+---
 ## Detyra 2
 
 Te shkruhet programi permes te cilit jepim vlera per dy variabla (x dhe y). Nese x > y, te njesohet shuma e tyre
@@ -85,7 +88,7 @@ int main()
     return 0;
 }
 ```
-
+---
 ## Detyra 3
 Ngjashem sikur detyra e dyte, por programi te shkruhet permes pointereve.
 ```cpp
@@ -114,7 +117,7 @@ int main()
     return 0;
 }
 ```
-
+---
 ## Detyra 4 
 Te shkruhet programi i cili tregon se a jane dy pointere te barabarte apo jo.
  
@@ -136,7 +139,7 @@ cout << "Pointeret nuk jane te barabarte." << endl;
 
 }
 ```
-
+---
 ## Detyra 5 
 
 Te shkruhet programi i cili ka funksionin *llogaritja()* i cili merr nje pointer te tipit int dhe kthen rezultatin ne double
@@ -160,8 +163,9 @@ int main ()
     cout << "Vlera e y=" << llogaritja(&r) << endl;
 }
 ```
+---
 ## Detyra 6
-Kerkesa e ngjashme me detyren paraprake, por tani funksioni merr nje variabel te tipit double, ndersa ne main 
+Kerkesa e ngjashme me detyren paraprake, por tani funksioni merr nje variabel te tipit **int**  e jo **pointer int** ndersa ne main 
 te deklarohet nje variabel dhe t'i jepet vlere e cfaredoshme, pastaj nje pointer i cili merr adresen e saj dhe perdoret
 ne funksionin llogaritja.
 
@@ -185,6 +189,7 @@ int main ()
     cout << "Vlera e y=" << llogaritja(*z) << endl;
 }
 ```
+---
 ## Detyra 7 
 
 Detyre e ngjashme me detyren 6 por me sintakse te cpp te ndryshme. 
