@@ -48,6 +48,7 @@ int main() {
     funksioni.funksionig();
 }
 ```
+---
 ## Detyra 2 
 LLogariteni funksionin z= (m+1)!+3*a
 
@@ -96,6 +97,7 @@ int main () {
 }
 
 ```
+---
 ## Detyra 3
 Krijoini nje klase me emrin person qe ka 3 variable publike (emri,mbiemri , qyteti ) te llojit string.
 Krijoni nje funksion qe i shtyp ato vlera 
@@ -129,6 +131,7 @@ return 0;
 
 }
 ```
+---
 
 ## Detyra 3 ( Metoda 2 )
 ```cpp

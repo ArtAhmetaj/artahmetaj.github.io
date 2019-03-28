@@ -47,6 +47,7 @@ int main()
     return 0;
 } 
 ```
+---
 ## Detyra 2
 Te shkruhet programi i cili e permbane klasen omega, e kjo klase te kete variablat private n dhe k te tipit int, x dhe a te tipit double ndersa te kete variablen y te tipit double e cila eshte publike.
 
@@ -84,6 +85,7 @@ int main() {
     cout << "y=" << a1.y;
 }
 ```
+---
 ## Detyra 3 
 Te shkruhet programi i cili permbane klasen kater, e kjo klase te kete kater variabla private te tipit double. 
 
@@ -122,6 +124,7 @@ int main()
     return 0;
 }
 ```
+---
 ## Detyra 4 
 Te shkruhet programi i cili ka klasen rrethi, klase e cila i ka 4 variabla private te tipit double: Pi,r,s,p.
 
@@ -168,6 +171,7 @@ int main()
     return 0;
 }
 ```
+---
 ## Detyra 5 
 Te krijohet nje klase me emrin beta, qe ka variablat publike:
 
@@ -201,6 +205,7 @@ return max;
 }
 };
 
+---
 int main()
 {
     beta objBeta ={5,2.1,-7.5,12.4,3.1,10.15};
